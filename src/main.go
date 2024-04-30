@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	Token := "0"
+	Token := "Insert Your Token Here"
 	dg, err := discordgo.New("Bot " + Token)
 	if err != nil {
 		fmt.Println("failed initilizing token")
